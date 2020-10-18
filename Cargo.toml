@@ -1,0 +1,19 @@
+[package]
+name = "solhop-types"
+version = "0.1.0"
+authors = ["Prateek Kumar <prateek@prateekkumar.in>"]
+edition = "2018"
+description = """
+Types for SolHOP
+"""
+documentation = "https://docs.rs/solhop-types/"
+homepage = "https://solhop.org/"
+repository = "https://github.com/solhop/solhop-types"
+readme = "README.md"
+keywords = ["SAT", "MaxSAT", "Boolean", "Satisfiability", "SolHOP"]
+categories = ["science"]
+license = "MIT"
+exclude = ["/.vscode/", "/.github/"]
+
+[dependencies]
+regex = "1.4"
